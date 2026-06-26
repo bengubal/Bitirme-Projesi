@@ -34,6 +34,7 @@ Kafa travması (TBI) hastalarında kranyal BT görüntülerinden **Rotterdam CT 
 - **Kaynak:** [Computed Tomography Images for Intracranial Hemorrhage Detection and Segmentation v1.3.1](https://physionet.org/content/ct-ich/1.3.1/)
 - **Format:** NIfTI (`.nii`) — hasta bazlı CT hacmi + maske
 - **Bölme:** %80 train / %20 validasyon (hasta bazlı, slice bazlı değil)
+- **Veri setinin Google Drive üzerinden bağlantısı:** https://drive.google.com/drive/folders/1u6fq9wTmPQxa4s39LMMmX9FJ4BHBEDQW?usp=sharing
 
 ### Model
 - **Mimari:** U-Net — `segmentation-models-pytorch`
@@ -69,6 +70,7 @@ pylibjpeg, pylibjpeg-libjpeg, pylibjpeg-openjpeg, gdcm, gradio
 ## 📊 3 — Değerlendirme (`tbidetection-results.ipynb`)
 
 CQ500 (Qure.ai Head CT) dataset üzerinde pipeline doğrulaması.
+-**Veri setinin Kaggle üzerinden bağlantısı :** https://www.kaggle.com/datasets/crawford/qureai-headct 
 
 **Değerlendirilen Bileşenler:**
 
